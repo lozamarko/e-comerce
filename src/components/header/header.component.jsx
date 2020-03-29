@@ -7,7 +7,6 @@ import "./header.styles.scss";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 function Header({ currentUser }) {
-  console.log(currentUser);
   return (
     <nav className="header">
       <Link className="logo-container" to="/">
