@@ -11,3 +11,7 @@ a {
 a:hover {
   color: rgb(85, 85, 85);
 }
+
+* {
+  box-sizing: border-box;
+}
